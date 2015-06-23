@@ -22,7 +22,7 @@ a = b;
 
 After this code executes, what are the values of a and b? Please explain your answer.
 
-<!-- Replace this comment with your answer -->
+`a` and `b` are both 3, because `b` was equal to 3, and then `a` was set to the value of `b`.
 
 ## Question 2
 
@@ -34,7 +34,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please explain what the last line of this program `c = c + d;` means.
 
-<!-- Replace this comment with your answer -->
+The final value of `c` is 7. The last line takes the old value of `c`, adds `d`'s value to it, and sets that as the new value of `c`.
 
 ## Question 3
 
@@ -47,7 +47,7 @@ y = 10;
 
 After this code executes, what are the values of x and y?  Please explain your answer.
 
-<!-- Replace this comment with your answer -->
+`x` is 3 and `y` is 10. This is because we set `x` to 3 in the third line, and we set `y` to 10 in the fourth line. There is no permanent relationship between `x` and `y`, so changing `y`'s value doesn't change `x`' s value.
 
 ## Question 4
 
@@ -59,7 +59,10 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+`var weather` evaluates to `undefined`, because it doesn't define a value for `weather`.
+`weather = "sunny";` evaluates to "sunny". This is because the assignment operator, `=`, evaluates to the value on its right side.
+`weather === "sunny";` evaluates to `true`. This is because the equality operator, `===`, evaluates to either true or false, and because at the moment, `weather` is equal to "sunny".
+
 
 ## Question 5
 
@@ -71,7 +74,7 @@ if (howMuchILikeSushi >= 3) {
 }
 
 if (x > 0) {
-  console.log("sushi is tasty");  
+  console.log("sushi is tasty");
 }
 ```
 
@@ -79,7 +82,7 @@ Imagine that you take the code from this question, save it to a file called `foo
 
 What would be the output? Explain your answer.
 
-<!-- Replace this comment with your answer -->
+The output would be an error, because `x` (referenced in line 7) isn't defined anywhere.
 
 ## Question 6
 
@@ -87,9 +90,9 @@ What would be the output? Explain your answer.
 var howMuchILikeSushi = 2;
 
 if (howMuchILikeSushi > 0) {
-  console.log("sushi is tasty");  
+  console.log("sushi is tasty");
 } else if (x >= 3) {
-  console.log("sushi is delicious");  
+  console.log("sushi is delicious");
 } else {
   console.log("I don't like sushi");
 }
@@ -99,7 +102,7 @@ Imagine that you take the code from this question, save it to a file called `sus
 
 What would be the output? Explain your answer.
 
-<!-- Replace this comment with your answer -->
+The output would be "sushi is tasty", because although `x` in line 5 is not defined, the first condition in our `if...else` is true, so line 5 (with the undefined `x`) will never be evaluated.
 
 ## Question 7
 
@@ -118,7 +121,7 @@ Imagine that you take the code from this question, save it to a file called `nam
 
 What would you have to type to exit the while loop?  Explain your answer.
 
-<!-- Replace this comment with your answer -->
+We either have to type nothing (followed by 'Enter', of course) or type SeCrEt. The while loop is checking our answer each time, and seeing if it is either of those two values; if it isn't, it runs the loop again.
 
 ---
 
